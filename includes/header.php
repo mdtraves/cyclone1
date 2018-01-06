@@ -26,10 +26,11 @@
             </ul>
         </div>
         <div class="nav-info">
-            <i class="fa fa-phone" aria-hidden="true"></i>
+            <a href="#" class="phone"><i class="fa fa-phone" aria-hidden="true"></i></a>
             <p class="contactNumber">07795158845</p>
             <a href="https://www.facebook.com/cyclonekickboxing/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <p>CYCLONE</p>
+            <a href="https://www.facebook.com/cyclonekickboxing/"><p>CYCLONE</p></a>
+
         </div>
         </div>
     </nav>

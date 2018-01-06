@@ -1,111 +1,22 @@
-* {
-  font-family: 'Exo', sans-serif;
-
+body, *, p, h1, h2,h3,h4,h5, container-fluid {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo";
 }
-.container-fluid {
-  padding: 0px!important;
-}
-body {
-  background-color: #ddd;
-}
+@import "variables";
+@import "header";
+@import "hero";
+@import "header";
+@import "intro";
 
-// navbar area //
+@media (max-width: 575px) {
 
-
-.header {
-  .navbar {
-  margin-bottom: 20px;
-  .navbar-brand img{
-    height: 40px;
-    width: 120px;
+  h1 {
+    font-size: 1.7em;
   }
-  .nav-info> * {
-    color: rgba(255,255,255,0.5);
-    }
-  }
-}
-
-.nav-info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  *{
-    margin: 0px 0px 0px 10px;
+  h3 {
     font-size: 1.2em;
-    cursor: pointer;
   }
 
-  .fa-phone {
-    padding-top: 5px;
-    margin-right: 0px;
-  }
-}
-.navbar-nav {
-  margin-left: 9.5%;
-}
-.nav-link{
-  margin-left: 30px;
-}
-
-// index page //
-
-
-.hero {
 
 }
-
-#hero-img {
-  width: 100%;
-
-}
-
-.intro {
-  background-color: rgb(200,200,200);
-  padding: 50px;
-}
-
-.index-header {
-  text-align: center;
-  padding: 60px;
-  font-weight: 800;
-}
-.index-intro {
-  text-align: center;
-  padding: 0px 25%;
-  padding-bottom: 80px;
-  font-weight: 500;
-
-}
-
-
-// rest //
-
-.rest {
-  background: rgb(200,200,200);
-  width: 100%;
-  clear: both;
-  min-height: 400px;
-}
-
-
-
-
-// start of media queries //
-
-
-@media only screen and  (max-width: 500px) {
-  .nav-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    *{
-      margin: 0px 0px 0px 7px;
-      font-size: 0.8em;
-    }
-
-  }
-
-}
-
-
-

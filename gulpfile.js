@@ -2,6 +2,9 @@ let gulp = require("gulp");
 let sass = require("gulp-sass");
 let clean = require("gulp-clean-css");
 let runSequence = require('gulp-run-sequence');
+let concat = require('gulp-concat-css');
+
+
 
 gulp.task("sass", function(){
     return gulp.src("app/scss/main.scss")
@@ -16,6 +19,7 @@ gulp.task("clean", function(){
 });
 
 
+
 gulp.task('dev', function(done) {
     runSequence('sass', 'clean', function() {
         console.log('Run something else');
@@ -24,5 +28,5 @@ gulp.task('dev', function(done) {
 });
 
 gulp.task ("watch", () => {
-    gulp.watch("app/scss/main.scss", ["dev"]);
+    gulp.watch("app/scss/*.scss", ["dev"]);
 })

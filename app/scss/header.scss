@@ -1,0 +1,83 @@
+.header{
+  color: #fff;
+  .navbar{
+    button{}
+    .container{
+      .navbar-brand{
+        margin: 0;
+        img{
+          height: 50px;
+        }
+      }
+
+      li a {
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+
+.collapse{
+  ul{
+    li{
+      a{}
+    }
+  }
+}
+
+.nav-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  * {
+    padding: 5px;
+    color: $primaryColor;
+  }
+  .fa-phone{}
+  .contactNumber{
+
+  }
+  .fa-facebook{
+
+  }
+  p{}
+}
+
+
+
+
+// start of media queries //
+
+@media (max-width: 991px) {
+
+  .navbar{
+    min-height: 74px;
+    align-items: center;
+    button {
+      margin-top: 7px;
+    }
+
+    .navbar-brand {
+      transform: translateX(-50%);
+      left: 50%;
+      position: absolute;
+    }
+    .nav-info{
+      display: none;
+    }
+  }
+
+
+}
+
+
+@media (max-width: 575px) {
+
+  #navbarSupportedContent{
+    margin-top: 65px;
+    text-align: center;
+  }
+
+
+}
