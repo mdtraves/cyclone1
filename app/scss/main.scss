@@ -1,13 +1,20 @@
-body, *, p, h1, h2,h3,h4,h5, container-fluid {
-  margin: 0;
-  padding: 0;
-  font-family: "Exo";
-}
+
 @import "variables";
 @import "header";
 @import "hero";
 @import "header";
 @import "intro";
+
+body, *, p, h1, h2,h3,h4,h5, container-fluid {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo";
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 
 @media (max-width: 575px) {
 

@@ -2,11 +2,22 @@
   background-color: $lightColor;
   padding: 50px;
   text-align: center;
-
+  .content{
+    padding: 50px;
   h1 {
     padding-bottom: 60px;
   }
   h3 {
     line-height: 1.5em;
+  }
+  }
+}
+
+
+
+
+@media (max-width: 576px) {
+  .intro .content {
+    padding: 0;
   }
 }

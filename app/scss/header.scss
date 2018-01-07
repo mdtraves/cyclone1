@@ -1,5 +1,5 @@
 .header{
-  color: #fff;
+
   .navbar{
     button{}
     .container{
@@ -12,6 +12,7 @@
 
       li a {
         font-weight: 400;
+        color: $lightColor;
       }
     }
   }
@@ -31,15 +32,17 @@
   align-items: center;
   justify-content: center;
   * {
-    padding: 5px;
-    color: $primaryColor;
+    padding: 6px;
+    color: $lightColor;
   }
-  .fa-phone{}
+  .fa-phone{
+    margin-right: -8px;
+  }
   .contactNumber{
 
   }
   .fa-facebook{
-
+    margin: -3px -15px 0 0;
   }
   p{}
 }

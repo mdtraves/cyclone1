@@ -1,24 +1,23 @@
-body, *, p, h1, h2, h3, h4, h5, container-fluid {
-  margin: 0;
-  padding: 0;
-  font-family: "Exo"; }
+.header .navbar .container .navbar-brand {
+  margin: 0; }
+  .header .navbar .container .navbar-brand img {
+    height: 50px; }
 
-.header {
-  color: #fff; }
-  .header .navbar .container .navbar-brand {
-    margin: 0; }
-    .header .navbar .container .navbar-brand img {
-      height: 50px; }
-  .header .navbar .container li a {
-    font-weight: 400; }
+.header .navbar .container li a {
+  font-weight: 400;
+  color: #efefef; }
 
 .nav-info {
   display: flex;
   align-items: center;
   justify-content: center; }
   .nav-info * {
-    padding: 5px;
-    color: #3b5998; }
+    padding: 6px;
+    color: #efefef; }
+  .nav-info .fa-phone {
+    margin-right: -8px; }
+  .nav-info .fa-facebook {
+    margin: -3px -15px 0 0; }
 
 @media (max-width: 991px) {
   .navbar {
@@ -42,22 +41,26 @@ body, *, p, h1, h2, h3, h4, h5, container-fluid {
   width: 100%;
   padding: 50px 0; }
 
-.header {
-  color: #fff; }
-  .header .navbar .container .navbar-brand {
-    margin: 0; }
-    .header .navbar .container .navbar-brand img {
-      height: 50px; }
-  .header .navbar .container li a {
-    font-weight: 400; }
+.header .navbar .container .navbar-brand {
+  margin: 0; }
+  .header .navbar .container .navbar-brand img {
+    height: 50px; }
+
+.header .navbar .container li a {
+  font-weight: 400;
+  color: #efefef; }
 
 .nav-info {
   display: flex;
   align-items: center;
   justify-content: center; }
   .nav-info * {
-    padding: 5px;
-    color: #3b5998; }
+    padding: 6px;
+    color: #efefef; }
+  .nav-info .fa-phone {
+    margin-right: -8px; }
+  .nav-info .fa-facebook {
+    margin: -3px -15px 0 0; }
 
 @media (max-width: 991px) {
   .navbar {
@@ -81,10 +84,24 @@ body, *, p, h1, h2, h3, h4, h5, container-fluid {
   background-color: #efefef;
   padding: 50px;
   text-align: center; }
-  .intro h1 {
-    padding-bottom: 60px; }
-  .intro h3 {
-    line-height: 1.5em; }
+  .intro .content {
+    padding: 50px; }
+    .intro .content h1 {
+      padding-bottom: 60px; }
+    .intro .content h3 {
+      line-height: 1.5em; }
+
+@media (max-width: 576px) {
+  .intro .content {
+    padding: 0; } }
+
+body, *, p, h1, h2, h3, h4, h5, container-fluid {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo"; }
+
+a:hover {
+  text-decoration: none; }
 
 @media (max-width: 575px) {
   h1 {
