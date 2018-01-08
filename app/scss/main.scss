@@ -4,17 +4,24 @@
 @import "hero";
 @import "header";
 @import "intro";
+@import "gallery";
+@import "about";
+@import "locations";
 
-body, *, p, h1, h2,h3,h4,h5, container-fluid {
+body, *, p, h1, h2,h3,h4,h5, container-fluid, container, iframe, div {
   margin: 0;
   padding: 0;
   font-family: "Exo";
+  box-sizing: border-box;
+}
+
+.dark-bg {
+  background-color: $lightColor;
 }
 
 a:hover {
   text-decoration: none;
 }
-
 
 @media (max-width: 575px) {
 

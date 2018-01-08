@@ -12,13 +12,13 @@
                     <a class="nav-link" href="#">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link" href="#about-us">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">GALLERY</a>
+                    <a class="nav-link" href="#gallery-grid">GALLERY</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">LOCATIONS</a>
+                    <a class="nav-link" href="#our-locations">LOCATIONS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">CONTACT</a>
