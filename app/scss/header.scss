@@ -8,6 +8,7 @@
         img{
           height: 50px;
           width:120px;
+          margin: 0 65px;
         }
       }
 
@@ -66,6 +67,9 @@
       transform: translateX(-50%);
       left: 50%;
       position: absolute;
+      img{
+        margin: 0!important;
+      }
     }
     .nav-info{
       display: none;

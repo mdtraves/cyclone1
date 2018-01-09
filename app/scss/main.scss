@@ -7,6 +7,8 @@
 @import "gallery";
 @import "about";
 @import "locations";
+@import "contact";
+@import "footer";
 
 body, *, p, h1, h2,h3,h4,h5, container-fluid, container, iframe, div {
   margin: 0;
@@ -19,9 +21,18 @@ body, *, p, h1, h2,h3,h4,h5, container-fluid, container, iframe, div {
   background-color: $lightColor;
 }
 
+.bold {
+  font-weight: 600;
+}
+
+.section-head {
+  padding: 70px;
+}
+
 a:hover {
   text-decoration: none;
 }
+
 
 @media (max-width: 575px) {
 
