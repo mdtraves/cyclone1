@@ -1,6 +1,18 @@
 .contact-div {
-  padding: 50px;
+  padding: 20px 0 100px 0;
   a {
     color: black;
   }
+  i{
+    font-size: 4em;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+}
+
+.chief {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 60px auto;
 }

@@ -17,6 +17,7 @@ body, *, p, h1, h2,h3,h4,h5, container-fluid, container, iframe, div {
   box-sizing: border-box;
 }
 
+
 .dark-bg {
   background-color: $lightColor;
 }
@@ -26,7 +27,7 @@ body, *, p, h1, h2,h3,h4,h5, container-fluid, container, iframe, div {
 }
 
 .section-head {
-  padding: 70px;
+  padding: 120px 0;
 }
 
 a:hover {
@@ -41,6 +42,15 @@ a:hover {
   }
   h3 {
     font-size: 1.2em;
+  }
+
+
+}
+
+@media (max-width: 575px) {
+
+  .section-head {
+    padding: 100px 0;
   }
 
 

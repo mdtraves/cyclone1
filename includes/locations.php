@@ -1,4 +1,4 @@
-<div class="container-fluid" id="our-locations">
+<section class="container-fluid" id="our-locations">
     <div class="container map-container">
         <h2 class="bold text-center section-head">OUR LOCATIONS</h2>
         <div class="row">
@@ -33,7 +33,7 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
 
 

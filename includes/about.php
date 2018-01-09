@@ -1,4 +1,4 @@
-<div class="container-fluid dark-bg about" id="about-us">
+<section class="container-fluid dark-bg about" id="about-us">
     <div class="container content" >
         <h2 class="about-us text-center bold section-head">CYCLONE WELCOMES NEW STARTERS</h2>
         <p class="about-us-p text-center">We aim to make your booking in process as simple as
@@ -14,4 +14,4 @@
         <p class="about-us-p text-center">When you first attend simply wear loose comfortable clothing, we recommend tracksuit bottoms and a t-shirt and to train bare. Don’t forget a drink.</p>
         <br>
     </div>
-</div>
+</section>
