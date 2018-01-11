@@ -18,8 +18,12 @@
     color: #efefef; }
   .nav-info .fa-phone {
     margin-right: -8px; }
+  .nav-info .contactNumber {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem; }
   .nav-info .fa-facebook {
-    margin: -3px -15px 0 0; }
+    margin: -3px -10px 0 0; }
 
 @media (max-width: 991px) {
   .navbar {
@@ -43,7 +47,7 @@
 
 .hero img {
   width: 100%;
-  padding: 50px 0; }
+  padding: 90px 0 0px 0; }
 
 .header .navbar .container .navbar-brand {
   margin: 0; }
@@ -65,8 +69,12 @@
     color: #efefef; }
   .nav-info .fa-phone {
     margin-right: -8px; }
+  .nav-info .contactNumber {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem; }
   .nav-info .fa-facebook {
-    margin: -3px -15px 0 0; }
+    margin: -3px -10px 0 0; }
 
 @media (max-width: 991px) {
   .navbar {
@@ -91,11 +99,6 @@
 .intro {
   background-color: #efefef;
   text-align: center; }
-  .intro .content {
-    padding-bottom: 80px; }
-    .intro .content p {
-      font-size: 1.6em;
-      line-height: 1.5em; }
 
 @media (max-width: 576px) {
   .intro .content {
@@ -103,38 +106,34 @@
 
 .galleryPic {
   width: 100%;
-  padding: 0px 20px 30px 20px; }
+  margin: 0px 20px 50px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #151718; }
 
-.about {
-  text-align: center; }
-  .about .content {
-    padding-bottom: 50px; }
-    .about .content p {
-      font-size: 1.6em;
-      line-height: 1.5em;
-      padding-bottom: 30px; }
+.fa-facebook {
+  color: #292929; }
 
 .map-container h3 {
-  padding-bottom: 20px; }
+  font-size: 2rem; }
+
+.map-container h6 {
+  font-size: 1.45rem;
+  margin-bottom: 20px; }
 
 .map-container iframe {
   padding: 10px;
   height: 350px;
   width: 100%;
+  background-color: #efefef;
   margin-bottom: 100px;
-  background-color: #292b2c;
-  border: 1px solid #292b2c;
   border-radius: 25px;
-  box-shadow: 3px 3px 30px #292b2c; }
+  box-shadow: 0px 0px 12px #151718; }
 
-.contact-div {
-  padding: 20px 0 100px 0; }
-  .contact-div a {
-    color: black; }
-  .contact-div i {
-    font-size: 4em; }
-  .contact-div p {
-    margin-bottom: 30px; }
+.contact-div a {
+  color: black; }
+
+.contact-div i {
+  font-size: 4em; }
 
 .chief {
   max-width: 200px;
@@ -161,11 +160,22 @@ body, *, p, h1, h2, h3, h4, h5, container-fluid, container, iframe, div {
   font-family: "Exo";
   box-sizing: border-box; }
 
+h3 {
+  padding: 20px; }
+
+p {
+  font-size: 1.6em;
+  line-height: 1.5em;
+  margin-bottom: 30px; }
+
 .dark-bg {
   background-color: #efefef; }
 
 .bold {
   font-weight: 600; }
+
+section {
+  padding-bottom: 100px; }
 
 .section-head {
   padding: 120px 0; }
