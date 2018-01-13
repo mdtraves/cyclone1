@@ -1,15 +1,29 @@
-<section class="container-fluid white-bg">
-    <div class="container gallery-grid" id="gallery-grid">
-        <h2 class="bold text-center section-head">GALLERY</h2>
-        <div class="row gallery-row">
-            <div class="col-md-4"><img src="app/img/1.jpg" alt="pic" class="galleryPic"></div>
-            <div class="col-md-4"><img src="app/img/2.jpg" alt="pic" class="galleryPic"></div>
-            <div class="col-md-4"><img src="app/img/3.jpg" alt="pic" class="galleryPic"></div>
+<section class="container-fluid white-bg animated gallery-title">
+    <h2 class="bold text-center  section-head ">GALLERY</h2>
+    <div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100 img-responsive" src="app/img/1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="app/img/2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="app/img/3.jpg" alt="Third slide">
+            </div>
         </div>
-        <div class="row gallery-row">
-            <div class="col-md-4"><img src="app/img/1.jpg" alt="pic" class="galleryPic"></div>
-            <div class="col-md-4"><img src="app/img/2.jpg" alt="pic" class="galleryPic"></div>
-            <div class="col-md-4"><img src="app/img/3.jpg" alt="pic" class="galleryPic"></div>
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 </section>

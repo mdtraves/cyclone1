@@ -110,8 +110,12 @@
   border-radius: 20px;
   box-shadow: 0px 0px 20px #151718; }
 
-.fa-facebook {
-  color: #292929; }
+.carousel {
+  height: 500px;
+  overflow: hidden; }
+  .carousel .item img {
+    width: 100%;
+    height: auto; }
 
 .map-container h3 {
   font-size: 2rem; }
@@ -134,6 +138,9 @@
 
 .contact-div i {
   font-size: 4em; }
+
+.contact-div .fa-facebook {
+  color: #292929; }
 
 .chief {
   max-width: 200px;

@@ -1,5 +1,5 @@
-<section class="container-fluid dark-bg contact" id="contact">
-    <div class="container content" >
+<section class="container-fluid dark-bg" id="contact">
+    <div class="container content animated contact" >
         <div class="row">
             <div class="col-md-12">
                 <h2 class="about-us text-center bold section-head">CONTACT US</h2>
