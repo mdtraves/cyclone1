@@ -1,11 +1,7 @@
 .intro {
   background-color: $lightColor;
   text-align: center;
-}
-
-
-@media (max-width: 576px) {
-  .intro .content {
-    padding: 50px 0;
+  i {
+    margin: 0 auto;
   }
 }

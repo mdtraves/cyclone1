@@ -1,29 +1,69 @@
 <section class="container-fluid white-bg animated gallery-title">
     <h2 class="bold text-center  section-head ">GALLERY</h2>
-    <div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100 img-responsive" src="app/img/1.jpg" alt="First slide">
+    <div class="container">
+        <div class="row text-center text-lg-left">
+
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="app/img/1.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="app/img/1.jpg" alt="">
+                </a>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="app/img/2.jpg" alt="Second slide">
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="app/img/2.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="app/img/2.jpg" alt="">
+                </a>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="app/img/3.jpg" alt="Third slide">
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="app/img/3.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="app/img/3.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 ">
+                <a href="app/img/cyclone.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="app/img/cyclone.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="app/img/cyclone.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+                </a>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+
     </div>
 </section>

@@ -11,14 +11,20 @@ $(document).ready(function(){
     }, { offset: '70%' });
     $('.gallery-title').waypoint(function() {
         $('.gallery-title').addClass('fadeInRight');
-    }, { offset: '60%' });
+    }, { offset: '70%' });
     $('.about-inner').waypoint(function() {
         $('.about-inner').addClass('fadeInUp');
     }, { offset: '75%' });
     $('.locations').waypoint(function() {
         $('.locations').addClass('fadeInUp');
-    }, { offset: '80%' });
+    }, { offset: '95%' });
     $('.contact').waypoint(function() {
         $('.contact').addClass('fadeInUp');
-    }, { offset: '80%' });
+    }, { offset: '95%' });
+
+    $(".about-us-p").hide();
+    $(".clicker").click(function() {
+        $(this).next('.about-us-p').slideToggle();
+    });
+
 });

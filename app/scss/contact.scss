@@ -1,17 +1,25 @@
-.contact-div {
-  a {
-    color: black;
-  }
-  i{
-    font-size: 4em;
-  }
-  .fa-facebook {
-    color: rgb(41,41,41);
-  }
-}
-
 .chief {
   max-width: 200px;
   display: block;
   margin: 0 auto 60px auto;
 }
+
+.boss-p {
+  margin-bottom: 50px;
+}
+
+.contact-div {
+  * {
+    color: $offBlack;
+  }
+  i{
+    font-size: 4em;
+  }
+  * {
+    &:hover {
+      font-weight: 600;
+    }
+  }
+}
+
+

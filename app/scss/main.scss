@@ -16,6 +16,10 @@ body, *, p, h1, h2,h3,h4,h5, container-fluid, container, iframe, div {
   box-sizing: border-box;
 }
 
+.navbar-color {
+  background-color: $offBlack;
+}
+
 h3 {
   padding: 20px;
 }
@@ -26,6 +30,8 @@ p {
   margin-bottom: 30px;
 }
 
+
+
 .dark-bg {
   background-color: $lightColor;
 }
@@ -35,11 +41,10 @@ p {
 }
 
 section {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
-
 .section-head {
-  padding: 120px 0;
+  padding: 80px 0;
 }
 
 a:hover {
@@ -57,11 +62,13 @@ a:hover {
   h3 {
     font-size: 1.2em;
   }
-}
-
-@media (max-width: 575px) {
-
   .section-head {
-    padding: 100px 0;
+    padding: 60px 0;
+  }
+  p {
+    font-size: .95rem;
+  }
+  section{
+    padding-bottom: 30px;
   }
 }
