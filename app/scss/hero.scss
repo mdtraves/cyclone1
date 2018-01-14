@@ -1,14 +1,13 @@
 .hero {
-padding: 50px;
+padding: 0px;
   #hero-img {
-    width: 25%;
+    width: 50%;
     padding: 10px 0 0px 0;
-  }
-  #hero-second {
-    width : 50%
+    display: block;
+    margin: 0 auto;
+
   }
 }
-
 
 
 
