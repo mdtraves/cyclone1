@@ -51,7 +51,7 @@
   padding: 0px; }
   .hero #hero-img {
     width: 50%;
-    padding: 10px 0 0px 0;
+    padding: 20px 0 0px 0;
     display: block;
     margin: 0 auto; }
 
@@ -191,6 +191,38 @@
     padding: 10px; }
     #footer * {
       padding: 13px; } }
+
+#home {
+  display: inline-block;
+  border: 2px solid #3b5998;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  margin-top: 20px; }
+
+.photo-thumb {
+  width: 30%;
+  height: 300px;
+  float: left;
+  margin: 10px 10px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px black;
+  border-radius: 20px; }
+
+div#blueimp-gallery div.modal {
+  overflow: visible; }
+
+@media (max-width: 768px) {
+  .photo-thumb {
+    width: 48%;
+    height: 250px;
+    margin: 10px 1%; } }
+
+@media (max-width: 400px) {
+  .photo-thumb {
+    width: 48%;
+    height: 130px;
+    margin: 10px 1%; } }
 
 body, *, p, h1, h2, h3, h4, h5, container-fluid, container, iframe, div {
   margin: 0;

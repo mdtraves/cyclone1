@@ -2,7 +2,7 @@
 $page_title = "Gallery";
 ?>
 
-<div class="container gallery-box animated">
+<div class="container gallery-box animated" id="gallery-link">
     <?php
 
     echo "<div class='col-lg-12 gallery-box animated'>";
@@ -47,7 +47,7 @@ $page_title = "Gallery";
 
             echo "<div class='col-sm-6 offset-sm-3 '>";
             echo "<a href='{$show_pictures_link}'>";
-            echo "<img class='img-responsive gallery-link' src='https://graph.facebook.com/v2.3/{$cover_photo}/picture?access_token={$access_token}' alt=''>";
+            echo "<img class='img-responsive gallery-link' src='app/img/storm.png' alt=''>";
             echo "</a>";
 
             $count_text="Photo";

@@ -15,7 +15,7 @@
                     <a class="nav-link" href="#about-us">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#gallery-grid">GALLERY</a>
+                    <a class="nav-link" href="#gallery-link">GALLERY</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#our-locations">LOCATIONS</a>

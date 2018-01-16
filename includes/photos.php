@@ -20,26 +20,15 @@ $page_title = "{$album_name} Photos";
     <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="Bootstrap-Image-Gallery-3.1.1/css/bootstrap-image-gallery.min.css">
     <link rel="stylesheet" href="../dist/css/main.css">
-    <style>
-        .photo-thumb{
-            width:214px;
-            height:214px;
-            float:left;
-            border: thin solid #d1d1d1;
-            margin:0 1em 1em 0;
-        }
 
-        div#blueimp-gallery div.modal {
-            overflow: visible;
-        }
-    </style>
 </head>
 <body>
 
-<div class="container text-center">
+<div class="container text-center gallery-box">
+    <a href="../index.php"><H1 class="home-button" id="home">HOME</H1></a>
     <?php
     echo "<h1 class='section-head'>
-    Gallery</h1>";
+    GALLERY</h1>";
 
     $access_token="328652457541955|5dERDPWIkg3pBj6qomJRhuL9BI8";
     $json_link = "https://graph.facebook.com/v2.3/{$album_id}/photos?fields=source,images,name&access_token={$access_token}";
@@ -56,7 +45,7 @@ $page_title = "{$album_name} Photos";
         $name = isset($obj['data'][$x]['name']) ? $obj['data'][$x]['name'] : "";
 
         echo "<a href='{$source}' data-gallery>";
-        echo "<div class='photo-thumb' style='background: url({$source}) 50% 50% no-repeat;'>";
+        echo "<div class='photo-thumb' style='background: url({$source}) 50% 50% no-repeat; background-size:contain;'>";
 
         echo "</div>";
         echo "</a>";
