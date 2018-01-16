@@ -17,7 +17,7 @@
 include "includes/header.php";
 include "includes/hero.php";
 include "includes/intro.php";
-include "includes/gallery.php";
+include "includes/facebook.php";
 include "includes/about.php";
 include "includes/locations.php";
 include "includes/contact.php";
