@@ -35,6 +35,8 @@ $(document).ready(function(){
         $('#loginbutton,#feedbutton').removeAttr('disabled');
         FB.getLoginStatus(updateStatusCallback);
     });
-
+    if(!$(".col-sm-6").hasClass('.Cover')){
+        $(".Cover").hide();
+    }
 
 });

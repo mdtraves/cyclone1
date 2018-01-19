@@ -38,9 +38,7 @@ $page_title = "Gallery";
 
         // if you want to exclude an album, just add the name on the if statement
         if(
-            $name!="Profile Pictures" &&
-            $name!="Mobile Uploads" &&
-            $name!="Timeline Photos"
+            $name =="Cover Photos"
         ){
 
             $show_pictures_link = "includes/photos.php?album_id={$id}&album_name={$name}";

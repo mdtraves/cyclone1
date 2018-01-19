@@ -23,6 +23,15 @@ include "includes/locations.php";
 include "includes/contact.php";
 include "includes/footer.php";
 ?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103842250-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-103842250-2');
+</script>
 
 <script
         src="https://code.jquery.com/jquery-3.2.1.min.js"
