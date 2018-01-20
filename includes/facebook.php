@@ -38,14 +38,14 @@ $page_title = "Gallery";
 
         // if you want to exclude an album, just add the name on the if statement
         if(
-            $name =="Cover Photos"
+            $name =="Cyclone Website"
         ){
 
             $show_pictures_link = "includes/photos.php?album_id={$id}&album_name={$name}";
 
             echo "<div class='col-sm-6 offset-sm-3 '>";
             echo "<a href='{$show_pictures_link}'>";
-            echo "<img class='img-responsive gallery-link' src='app/img/storm.png' alt=''>";
+            echo "<img class='img-responsive gallery-link' src='app/img/gallerysvg.svg' alt=''>";
             echo "</a>";
 
             $count_text="Photo";
