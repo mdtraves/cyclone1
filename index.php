@@ -20,6 +20,7 @@ include "includes/intro.php";
 include "includes/facebook.php";
 include "includes/about.php";
 include "includes/locations.php";
+include "includes/team.php";
 include "includes/contact.php";
 include "includes/footer.php";
 ?>

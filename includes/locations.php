@@ -1,6 +1,6 @@
 <section class="container-fluid" id="our-locations">
     <div class="container map-container animated locations">
-        <h2 class="bold text-center section-head">OUR LOCATIONS</h2>
+        <h1 class="bold text-center section-head">OUR LOCATIONS</h1>
         <div class="row">
             <div class="col-md-6">
                 <h3 class="text-center day">MONDAY</h3>

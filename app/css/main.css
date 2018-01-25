@@ -157,6 +157,9 @@
   .locations h6 {
     font-size: 1.2rem; } }
 
+.team-box img {
+  height: 270px; }
+
 .chief {
   max-width: 200px;
   display: block;

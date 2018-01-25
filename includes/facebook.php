@@ -1,12 +1,12 @@
 <?php
-$page_title = "Gallery";
+$page_title = "GALLERY";
 ?>
 
 <div class="container gallery-box animated" id="gallery-link">
     <?php
 
     echo "<div class='col-lg-12 gallery-box animated'>";
-    echo "<h1 class='page-header section-head text-center'>{$page_title}</h1>";
+    echo "<h1 class='page-header section-head bold text-center'>{$page_title}</h1>";
     echo "</div>";
 
     $access_token="328652457541955|5dERDPWIkg3pBj6qomJRhuL9BI8";
