@@ -50,8 +50,6 @@ $page_title = "Gallery";
 
             $count_text="Photo";
             if($count>1){ $count_text="Photos"; }
-
-
             echo "</div>";
         }
     }
@@ -66,5 +64,3 @@ $page_title = "Gallery";
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-</body>
-</html>

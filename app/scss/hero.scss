@@ -1,9 +1,9 @@
 .hero {
-  padding: 0px;
-  background-color: black;
+  background: url(../img/blackwood.jpg)no-repeat center center ;
+  background-size: cover;
   #hero-img {
-    width: 80%;
-    padding: 0px 0 0px 0;
+    width: 45%;
+    padding: 11%;
     display: block;
     margin: 0 auto;
   }
@@ -12,14 +12,8 @@
 @media (max-width: 575px ) {
   .hero{
   #hero-img {
-    width: 100%;
+    width: 80%;
     min-height: 200px;
 }
 }
 }
-
-
-
-
-
-

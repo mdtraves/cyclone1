@@ -1,26 +1,20 @@
 <?php
 $album_id = isset($_GET['album_id']) ? $_GET['album_id'] : die('Album ID not specified.');
 $album_name = isset($_GET['album_name']) ? $_GET['album_name'] : die('Album name not specified.');
-
 $page_title = "{$album_name} Photos";
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title><?php echo $page_title; ?></title>
-
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-
     <!-- blue imp gallery -->
     <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="Bootstrap-Image-Gallery-3.1.1/css/bootstrap-image-gallery.min.css">
     <link rel="stylesheet" href="../dist/css/main.css">
-
 </head>
 <body>
 
@@ -46,7 +40,6 @@ $page_title = "{$album_name} Photos";
 
         echo "<a href='{$source}' data-gallery>";
         echo "<div class='photo-thumb' style='background: url({$source}) 50% 50% no-repeat; background-size:contain;'>";
-
         echo "</div>";
         echo "</a>";
 

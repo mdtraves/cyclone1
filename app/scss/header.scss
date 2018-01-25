@@ -9,10 +9,8 @@
           height: 50px;
           width:120px;
           margin: 0 65px;
-          filter: invert(1)  ;
         }
       }
-
       li a {
         font-weight: 400;
         color: $lightColor;
@@ -21,14 +19,6 @@
   }
 }
 
-
-.collapse{
-  ul{
-    li{
-      a{}
-    }
-  }
-}
 
 .nav-info{
   display: flex;
@@ -44,7 +34,7 @@
   .contactNumber{
   padding: 0;
   margin: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .fa-facebook{
     margin: -3px -10px 0 0;
@@ -52,23 +42,15 @@
   p{}
 }
 
-
-
-
 // start of media queries //
 
 @media (max-width: 991px) {
-
-
-
-
   .navbar{
     min-height: 74px;
     align-items: center;
     button {
       margin-top: 7px;
     }
-
     .navbar-brand {
       transform: translateX(-50%);
       left: 50%;
@@ -80,18 +62,15 @@
     .nav-info{
       display: none;
     }
+    .nav-link {
+      margin: 10px 0px;
+    }
   }
-
-
 }
 
-
 @media (max-width: 575px) {
-
   #navbarSupportedContent{
     margin-top: 65px;
     text-align: center;
   }
-
-
 }

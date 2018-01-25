@@ -5,8 +5,7 @@
     .header .navbar .container .navbar-brand img {
       height: 50px;
       width: 120px;
-      margin: 0 65px;
-      filter: invert(1); }
+      margin: 0 65px; }
   .header .navbar .container li a {
     font-weight: 400;
     color: #efefef; }
@@ -23,7 +22,7 @@
   .nav-info .contactNumber {
     padding: 0;
     margin: 0;
-    font-size: 1.2rem; }
+    font-size: 1rem; }
   .nav-info .fa-facebook {
     margin: -3px -10px 0 0; }
 
@@ -40,7 +39,9 @@
       .navbar .navbar-brand img {
         margin: 0 !important; }
     .navbar .nav-info {
-      display: none; } }
+      display: none; }
+    .navbar .nav-link {
+      margin: 10px 0px; } }
 
 @media (max-width: 575px) {
   #navbarSupportedContent {
@@ -48,17 +49,17 @@
     text-align: center; } }
 
 .hero {
-  padding: 0px;
-  background-color: black; }
+  background: url(../img/blackwood.jpg) no-repeat center center;
+  background-size: cover; }
   .hero #hero-img {
-    width: 80%;
-    padding: 0px 0 0px 0;
+    width: 45%;
+    padding: 11%;
     display: block;
     margin: 0 auto; }
 
 @media (max-width: 575px) {
   .hero #hero-img {
-    width: 100%;
+    width: 80%;
     min-height: 200px; } }
 
 .header {
@@ -68,8 +69,7 @@
     .header .navbar .container .navbar-brand img {
       height: 50px;
       width: 120px;
-      margin: 0 65px;
-      filter: invert(1); }
+      margin: 0 65px; }
   .header .navbar .container li a {
     font-weight: 400;
     color: #efefef; }
@@ -86,7 +86,7 @@
   .nav-info .contactNumber {
     padding: 0;
     margin: 0;
-    font-size: 1.2rem; }
+    font-size: 1rem; }
   .nav-info .fa-facebook {
     margin: -3px -10px 0 0; }
 
@@ -103,7 +103,9 @@
       .navbar .navbar-brand img {
         margin: 0 !important; }
     .navbar .nav-info {
-      display: none; } }
+      display: none; }
+    .navbar .nav-link {
+      margin: 10px 0px; } }
 
 @media (max-width: 575px) {
   #navbarSupportedContent {
@@ -118,7 +120,7 @@
 
 .gallery-link {
   width: 100%;
-  margin-bottom: 100px; }
+  margin-bottom: 50px; }
 
 .about h3 {
   font-weight: 500;
@@ -196,7 +198,9 @@
     flex-direction: column;
     padding: 10px; }
     #footer * {
-      padding: 13px; } }
+      padding: 13px; }
+    #footer .nav-link {
+      margin: 10px 0px; } }
 
 #home {
   display: inline-block;
@@ -237,7 +241,7 @@ body, *, p, h1, h2, h3, h4, h5, container-fluid, container, iframe, div {
   box-sizing: border-box; }
 
 .navbar-color {
-  background-color: #0e0e0e; }
+  background-color: #111; }
 
 h3 {
   padding: 20px; }

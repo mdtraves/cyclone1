@@ -21,14 +21,7 @@
   }
 }
 
-
-
-
-
-
-
 @media (max-width: 575px) {
-
   #footer {
     display: flex;
     align-items: center;
@@ -38,6 +31,8 @@
     * {
       padding: 13px;
     }
+    .nav-link {
+      margin: 10px 0px;
+    }
   }
-
 }
