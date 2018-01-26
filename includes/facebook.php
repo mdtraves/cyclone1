@@ -45,7 +45,7 @@ $page_title = "GALLERY";
 
             echo "<div class='col-sm-6 offset-sm-3 '>";
             echo "<a href='{$show_pictures_link}'>";
-            echo "<img class='img-responsive gallery-link' src='app/img/gallerysvg.svg' alt=''>";
+            echo "<img class='img-responsive gallery-link' src='dist/img/gallerysvg.svg' alt=''>";
             echo "</a>";
 
             $count_text="Photo";
