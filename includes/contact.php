@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h1 class="about-us text-center bold section-head">CONTACT US</h1>
-                <img src="app/img/garry.jpg" alt="garry" class="chief rounded-circle">
+                <img src="dist/img/garry.jpg" alt="garry" class="chief rounded-circle">
                 <h4 class="boss text-center">Garry Gillespie</h4>
                 <h6 class="boss-p text-center">Chief Instructor</h6>
                 <div class="text-center contact-div">

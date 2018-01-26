@@ -38,7 +38,7 @@ $page_title = "GALLERY";
 
         // if you want to exclude an album, just add the name on the if statement
         if(
-            $name =="Cyclone Website"
+            $name =="Cyclone_Website"
         ){
 
             $show_pictures_link = "includes/photos.php?album_id={$id}&album_name={$name}";
