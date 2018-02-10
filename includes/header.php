@@ -4,7 +4,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="dist/img/logosvg.svg" alt="brand logo"></a>
+            <a class="navbar-brand" href="#"><img src="dist/img/logosvg2.svg" alt="brand logo"></a>
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">

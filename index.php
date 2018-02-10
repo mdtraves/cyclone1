@@ -11,6 +11,11 @@
     <link href="https://fonts.googleapis.com/css?family=Exo:400,500,600,800" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/main.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="icon" type="image/png" href="dist/img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="dist/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="dist/img/favicon-96x96.png" sizes="96x96">
+    <link rel="apple-touch-icon" sizes="180x180" href="dist/img/apple-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="dist/img/apple-icon-152x152.png">
 </head>
 <body>
 
