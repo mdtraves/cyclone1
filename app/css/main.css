@@ -4,7 +4,7 @@
     margin: 0; }
     .header .navbar .container .navbar-brand img {
       height: 50px;
-      width: 120px;
+      width: 50px;
       margin: 0 65px; }
   .header .navbar .container li a {
     font-weight: 400;
@@ -68,7 +68,7 @@
     margin: 0; }
     .header .navbar .container .navbar-brand img {
       height: 50px;
-      width: 120px;
+      width: 50px;
       margin: 0 65px; }
   .header .navbar .container li a {
     font-weight: 400;
@@ -209,6 +209,9 @@
       padding: 13px; }
     #footer .nav-link {
       margin: 10px 0px; } }
+
+.col-md-4 img {
+  padding: 3%; }
 
 #home {
   display: inline-block;
