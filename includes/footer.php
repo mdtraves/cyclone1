@@ -1,4 +1,4 @@
-<footer id="footer">
+<footer id="footer" class="dark-bg">
     <a class="nav-link" href="#">HOME</a>
     <a class="nav-link" href="#about-us">ABOUT</a>
     <a class="nav-link" href="#gallery-link">GALLERY</a>

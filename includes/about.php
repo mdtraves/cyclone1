@@ -1,6 +1,6 @@
 <section class="container-fluid dark-bg about" id="about-us">
     <div class="container about-inner animated content  text-center" >
-        <h2 class="about-us text-center bold section-head">CYCLONE WELCOMES NEW STARTERS</h2>
+        <h1 class="about-us text-center bold section-head">CYCLONE WELCOMES NEW STARTERS</h1>
 
         <p class="about-us-p text-center">We aim to make your booking in process as simple as
             possible. Once you have decided which of our classes is most convenient for you simply give us a call or message us, its

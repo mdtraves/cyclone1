@@ -39,7 +39,7 @@ $page_title = "{$album_name} Photos";
         $name = isset($obj['data'][$x]['name']) ? $obj['data'][$x]['name'] : "";
 
         echo "<a href='{$source}' data-gallery>";
-        echo "<div class='photo-thumb' style='background: url({$source}) 50% 50% no-repeat; background-size:contain;'>";
+        echo "<div class='photo-thumb' style='background: url({$source}) 50% 50% no-repeat; background-size:cover;'>";
         echo "</div>";
         echo "</a>";
 

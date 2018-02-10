@@ -1,12 +1,12 @@
 <?php
-$page_title = "Gallery";
+$page_title = "GALLERY";
 ?>
 
 <div class="container gallery-box animated" id="gallery-link">
     <?php
 
     echo "<div class='col-lg-12 gallery-box animated'>";
-    echo "<h1 class='page-header section-head text-center'>{$page_title}</h1>";
+    echo "<h1 class='page-header section-head bold text-center'>{$page_title}</h1>";
     echo "</div>";
 
     $access_token="328652457541955|5dERDPWIkg3pBj6qomJRhuL9BI8";
@@ -38,14 +38,14 @@ $page_title = "Gallery";
 
         // if you want to exclude an album, just add the name on the if statement
         if(
-            $name =="Cyclone Website"
+            $name =="Cyclone_Website"
         ){
 
             $show_pictures_link = "includes/photos.php?album_id={$id}&album_name={$name}";
 
             echo "<div class='col-sm-6 offset-sm-3 '>";
             echo "<a href='{$show_pictures_link}'>";
-            echo "<img class='img-responsive gallery-link' src='app/img/gallerysvg.svg' alt=''>";
+            echo "<img class='img-responsive gallery-link' src='dist/img/gallerysvg.svg' alt=''>";
             echo "</a>";
 
             $count_text="Photo";

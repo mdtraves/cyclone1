@@ -1,6 +1,8 @@
 .map-container {
-  h3 {
+  h2 {
     font-size: 1.9rem;
+    color: red;
+    margin-bottom: 11px;
   }
   h6{
     font-size: 1.45rem;
@@ -8,11 +10,11 @@
   }
   p {
     font-size: .9rem;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
   }
   iframe {
     padding: 10px;
-    height: 350px;
+    height: 70vh;
     width: 100%;
     background-color: $lightColor;
     margin-bottom: 80px;
