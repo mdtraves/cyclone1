@@ -7,11 +7,11 @@
                 <h4 class="boss text-center">Garry Gillespie</h4>
                 <h6 class="boss-p text-center">Chief Instructor</h6>
                 <div class="text-center contact-div">
-                    <a class="phone"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                    <a class="phone"><span class="fa fa-phone" aria-hidden="true"></span></a>
                     <p class="contactNumber">07795158845</p>
-                    <a href="https://www.facebook.com/cyclonekickboxing/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="https://www.facebook.com/cyclonekickboxing/"><p>CYCLONE</p></a>
-                    <a class="mail"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/cyclonekickboxing/" title="facebookLink"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                    <a href="https://www.facebook.com/cyclonekickboxing/" title="facebookLink"><p>CYCLONE</p></a>
+                    <a class="mail"><span class="fa fa-envelope" aria-hidden="true"></span></a>
                     <p class="email-address">ggillespie@talktalk.net</p>
                 </div>
             </div>

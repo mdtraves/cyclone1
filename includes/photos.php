@@ -9,6 +9,7 @@ $page_title = "{$album_name} Photos";
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cyclone Martial Arts | A small team of highly experienced, dedicated martial arts instructors. Committed to providing the highest standard of kickboxing tuition possible in the Rotherham area."/>
     <title><?php echo $page_title; ?></title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <!-- blue imp gallery -->
@@ -38,7 +39,7 @@ $page_title = "{$album_name} Photos";
         $source = isset($obj['data'][$x]['images'][0]['source']) ? $obj['data'][$x]['images'][0]['source'] : ""; //hd image
         $name = isset($obj['data'][$x]['name']) ? $obj['data'][$x]['name'] : "";
 
-        echo "<a href='{$source}' data-gallery>";
+        echo "<a href='{$source}' title='cycloneGalleryPic' data-gallery>";
         echo "<div class='photo-thumb' style='background: url({$source}) 50% 50% no-repeat; background-size:cover;'>";
         echo "</div>";
         echo "</a>";
@@ -69,18 +70,28 @@ $page_title = "{$album_name} Photos";
                 <div class="modal-body next"></div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default pull-left prev">
-                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        <span class="glyphicon glyphicon-chevron-left"></span>
                         Previous
                     </button>
                     <button type="button" class="btn btn-primary next">
                         Next
-                        <i class="glyphicon glyphicon-chevron-right"></i>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
                     </button>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103842250-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-103842250-2');
+</script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>

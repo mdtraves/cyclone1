@@ -4,7 +4,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="dist/img/logosvg2.svg" alt="brand logo"></a>
+            <a class="navbar-brand" href="#"><img src="dist/img/logosvg2.svg" title="brand logo" alt="logo"></a>
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -25,10 +25,10 @@
                 </ul>
             </div>
             <div class="nav-info">
-                <a href="#contact" class="phone"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                <a href="#contact"><p class="contactNumber">07795158845</p></a>
-                <a href="https://www.facebook.com/cyclonekickboxing/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="https://www.facebook.com/cyclonekickboxing/"><p class="contactNumber">CYCLONE</p></a>
+                <a href="#contact" class="phone" title="facebookLink"><span class="fa fa-phone" aria-hidden="true" ></span></a>
+                <a href="#contact" title="facebookLink"><p class="contactNumber">07795158845</p></a>
+                <a href="https://www.facebook.com/cyclonekickboxing/" title="facebookLink"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                <a href="https://www.facebook.com/cyclonekickboxing/" title="facebookLink"><p class="contactNumber">CYCLONE</p></a>
             </div>
         </div>
     </nav>

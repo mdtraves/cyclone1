@@ -115,7 +115,7 @@
 .intro {
   background-color: #efefef;
   text-align: center; }
-  .intro i {
+  .intro span {
     margin: 0 auto; }
 
 .gallery-link {
@@ -126,7 +126,7 @@
   font-weight: 500;
   padding: 10px; }
 
-.about i {
+.about span {
   padding-bottom: 40px;
   font-size: 30px;
   -webkit-text-stroke: 1px #efefef; }
@@ -176,7 +176,7 @@
 .contact-div * {
   color: #292929; }
 
-.contact-div i {
+.contact-div .fa {
   font-size: 4em; }
 
 .contact-div *:hover {

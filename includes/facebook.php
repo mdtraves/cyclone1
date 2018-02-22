@@ -44,7 +44,7 @@ $page_title = "GALLERY";
             $show_pictures_link = "includes/photos.php?album_id={$id}&album_name={$name}";
 
             echo "<div class='col-sm-6 offset-sm-3 '>";
-            echo "<a href='{$show_pictures_link}'>";
+            echo "<a href='{$show_pictures_link}' title=\"facebookLink\">";
             echo "<img class='img-responsive gallery-link' src='dist/img/gallerysvg.svg' alt=''>";
             echo "</a>";
 
