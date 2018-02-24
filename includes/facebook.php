@@ -10,7 +10,6 @@ $page_title = "GALLERY";
     echo "</div>";
 
     $access_token="328652457541955|5dERDPWIkg3pBj6qomJRhuL9BI8";
-
     $fields="id,name,description,link,cover_photo,count";
     $fb_page_id = "444563555669787";
 
